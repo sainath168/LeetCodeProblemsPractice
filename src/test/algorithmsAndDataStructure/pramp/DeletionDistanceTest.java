@@ -1,6 +1,6 @@
-package test.algorithmsAndDataStructure.problemSolving;
+package test.algorithmsAndDataStructure.pramp;
 
-import main.algorithmsAndDataStructure.problemSolving.PrampInteviewProblem1;
+import main.algorithmsAndDataStructure.pramp.DeletionDistance;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Assumptions;
@@ -13,7 +13,7 @@ import org.junit.jupiter.api.condition.JRE;
 
 import java.util.Objects;
 
-class PrampInterviewProblem1Test {
+class DeletionDistanceTest {
     /**
      * This class is responsible for testing the deletionDistance method in PrampInterviewProblem1.
      *
@@ -42,11 +42,11 @@ class PrampInterviewProblem1Test {
      *  output: 4
      */
 
-    PrampInteviewProblem1 obj;
+    DeletionDistance obj;
 
     @BeforeEach
     void createObjectForEachTest() {
-        obj = new PrampInteviewProblem1();
+        obj = new DeletionDistance();
     }
 
     @Test

@@ -1,4 +1,4 @@
-package main.algorithmsAndDataStructure.problemSolving;
+package main.algorithmsAndDataStructure.pramp;
 
 /**
  * Deletion Distance
@@ -31,7 +31,7 @@ package main.algorithmsAndDataStructure.problemSolving;
  * [input] string str2
  * [output] integer
  */
-public class PrampInteviewProblem1 {
+public class DeletionDistance {
 
     public int deletionDistance(String str1, String str2) {
 
@@ -68,7 +68,7 @@ public class PrampInteviewProblem1 {
     }
 
     public static void main(String[] args) {
-        PrampInteviewProblem1 problem1 = new PrampInteviewProblem1();
+        DeletionDistance problem1 = new DeletionDistance();
         System.out.println(problem1.deletionDistance("awesome", "awesome"));
     }
 }
