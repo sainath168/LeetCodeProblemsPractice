@@ -11,18 +11,6 @@ public class AddTwoNumberLinkedList {
         addTwoNumbers(l1, l2);
     }
 
-    /**
-     * ListNode structure provided by leetcode and copied same here..
-     */
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
-
-
     static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         /* Aproach 1:
         - Check the size of the lists and make sure you are iterating through the bigger list

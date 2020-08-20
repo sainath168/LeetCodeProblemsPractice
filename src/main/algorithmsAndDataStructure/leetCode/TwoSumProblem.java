@@ -1,4 +1,4 @@
-package main.algorithmsAndDataStructure.problemSolving;
+package main.algorithmsAndDataStructure.leetCode;
 
 import java.util.Arrays;
 import java.util.HashMap;
