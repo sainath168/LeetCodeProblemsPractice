@@ -37,12 +37,4 @@ public class ReverseLinkedList {
 
         return reverseHead;
     }
-
-    static void getLastElement(ListNode head, ListNode node) {
-        if (head == null) {
-            return;
-        }
-        getLastElement(head.next, node);
-        node = new ListNode(head.val);
-    }
 }

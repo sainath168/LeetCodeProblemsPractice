@@ -24,6 +24,11 @@ class Array {
     private int[] numbers;
     private int arrayPointer;
 
+    Array() {
+        initializeArray(1);
+        arrayPointer = 0;
+    }
+
     /**
      * Constructor - used to initialize the array with size passed as parameter
      */
