@@ -1,4 +1,4 @@
-package main.algorithmsAndDataStructure.logicmojo;
+package main.algorithmsAndDataStructure.logicmojo.linkedList;
 
 import main.algorithmsAndDataStructure.leetCode.ListNode;
 

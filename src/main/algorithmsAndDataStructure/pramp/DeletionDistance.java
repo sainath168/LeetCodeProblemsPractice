@@ -68,7 +68,18 @@ public class DeletionDistance {
     }
 
     public static void main(String[] args) {
-        DeletionDistance problem1 = new DeletionDistance();
-        System.out.println(problem1.deletionDistance("awesome", "awesome"));
+        /*DeletionDistance problem1 = new DeletionDistance();
+        System.out.println(problem1.deletionDistance("awesome", "awesome"));*/
+
+
+        final String a;
+        String b = "b";
+        a = b;
+        String temp = a;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(temp);
+        System.out.println(a == temp);
+
     }
 }
